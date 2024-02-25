@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog - Vallejo Public Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <img src="img/library-logo.png" alt="Vallejo Public Library Logo" class="logo">
+            <h1>Vallejo Public Library</h1>
+            <div class="search-bar">
+                <form action="#" method="get">
+                    <input type="text" placeholder="Search the catalog" name="search">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="book-catalog.html">Book Catalog</a></li>
+                <li><a href="library-services.html">Library Services</a></li>
+                <li><a href="card-apply.html">Card Apply</a></li>
+                <li><a href="user-account.html">User Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="catalog">
+            <article class="book">
+                <img src="img/the-little-prince.png" alt="The Little Prince Cover">
+                <h3>The Little Prince</h3>
+                <p>Author: Antoine de Saint-Exupéry</p>
+                <p>Genre: Fiction</p>
+                <p>ISBN: 978-3-16-148410-0</p>
+                <p>Published: 1943</p>
+                <p>Description: A timeless masterpiece about the importance of human connections and the mystery of the universe, as explored through the adventures of a young prince from a distant asteroid.</p>
+                <div class="availability">
+                    <p>Total Copies: 10</p>
+                    <p>Available: 4</p>
+                    <button onclick="reserveBook()">Reserve this book</button>
+                </div>
+            </article>
+            <!-- Additional books can be added in similar structure -->
+        </section>
+    </main>
+    <footer>
+        <p>© Vallejo Public Library</p>
+    </footer>
+</body>
+</html>
